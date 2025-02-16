@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Todhri&family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://media.discordapp.net/attachments/1333906989411078145/1340698756231991416/bg3.jpg?ex=67b34e84&is=67b1fd04&hm=b2bb5707b4ec3976ec96fb89bd7c817ad497a3ec62d007d1c808aca5442b5abc&=&format=webp&width=910&height=512");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-1 {
+  background: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* font-family: "Noto Serif Todhri", serif; */
+
+  width: 400px;
+  height: 500px;
+  border-radius: 3%;
+  padding: 20px;
+  border: 2px solid black;
+  box-shadow: 5px -5px 0 black;
+  transition: all 0.3s;
+}
+
+.card1-image {
+  width: 100%;
+  border-radius: 3%;
+  box-shadow: 0 0 10px black;
+  transition: all 0.5s;
+}
+
+.tag {
+  background: #e1c356;
+  width: fit-content;
+  padding: 5px 15px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-1 h1 {
+  font-size: 28px;
+  margin: 0;
+}
+.description {
+  font-size: 16.5px;
+  color: rgb(75, 75, 75);
+  word-spacing: 2px;
+  line-height: 20px;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  background: #e1c356;
+  color: black;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.card-1:hover {
+  box-shadow: 0 0 20px black;
+}
+button:hover {
+  transform: scale(1.05);
+}
+.card1-image:hover {
+  transform: scale(1.02);
+}
