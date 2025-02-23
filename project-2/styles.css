@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Todhri&family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --Light-red: hsl(0, 100%, 67%);
+  --Orangey: hsl(39, 100%, 56%);
+  --Green-teal: hsl(166, 100%, 37%);
+  --Cobalt-blue: hsl(234, 85%, 45%);
+  --Light-slate-blue: hsl(252, 100%, 67%);
+  --Light-royal-blue: hsl(241, 81%, 54%);
+
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+  --Persian-blue: hsla(241, 72%, 46%, 0);
+
+  --White: hsl(0, 0%, 100%);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --Light-lavender: hsl(241, 100%, 89%);
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d4d4d4;
+  height: 100vh;
+  font-family: "Hanken Grotesk", serif;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  height: 70%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border-radius: 5%;
+  color: white;
+}
+.res {
+  color: rgb(240, 240, 240);
+}
+.card-left {
+  background: linear-gradient(
+    to bottom,
+    var(--Violet-blue),
+    var(--Light-royal-blue),
+    var(--Cobalt-blue)
+  );
+  border-radius: 5%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  background: linear-gradient(
+    to bottom,
+    var(--Violet-blue),
+    var(--Persian-blue),
+    var(--Light-royal-blue)
+  );
+  box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.159);
+  width: 140px;
+  padding: 20px 0;
+  border-radius: 100%;
+  justify-content: center;
+  opacity: 0.8;
+}
+.circle h1 {
+  margin: 0;
+  opacity: 1;
+  font-size: 36px;
+}
+.circle p {
+  margin: 5px;
+  color: var(--Light-lavender);
+}
+.great {
+  color: var(--Pale-blue);
+  margin: 0;
+  margin-top: 10px;
+}
+.par {
+  font-size: 14px;
+  color: var(--Pale-blue);
+}
+.card-right {
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
